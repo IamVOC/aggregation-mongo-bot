@@ -1,0 +1,7 @@
+[coverage:run]
+omit =
+	src/abstracts/*
+	src/routers/*
+	src/db.py
+	src/config.py
+	src/main.py

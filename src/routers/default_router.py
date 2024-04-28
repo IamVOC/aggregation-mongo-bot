@@ -23,4 +23,4 @@ async def default_handler(message: Message) -> Any:
 
     payments = await service.get_aggregated_data(message=input_message)
 
-    await message.answer(str(payments))
+    await message.answer(str(payments.model_dump_json()))

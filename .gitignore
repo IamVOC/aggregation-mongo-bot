@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Poetry & env
+poetry.lock
+.env
+.venv
+
+# Pytest
+.pytest_cache/
+.coverage
